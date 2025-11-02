@@ -140,3 +140,4 @@ Desktop.ini
 *.sqlite3
 *.log
 /tmp/
+/data/
