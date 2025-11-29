@@ -146,7 +146,7 @@ def create_csv(directory_path, files_list):
     clean_df.to_csv(
         os.path.join(csv_path, "rs-crime-index.csv"),
         index = False,
-        encoding = "utf-8-sig",
+        encoding = "utf-8",
     )
                 
 if __name__ == "__main__":
